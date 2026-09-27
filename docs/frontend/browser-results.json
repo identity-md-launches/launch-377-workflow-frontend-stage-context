@@ -1,0 +1,90 @@
+{
+  "testedAt": "2026-09-27T07:13:04.531Z",
+  "fixture": "Mock wallet/RPC; production export at /preview/",
+  "screenshots": [
+    "desktop.mock.png",
+    "mobile.mock.png"
+  ],
+  "sizes": [
+    {
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "width": 800,
+      "scrollWidth": 800
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440
+    }
+  ],
+  "axeViolations": [],
+  "pageErrors": [],
+  "transactions": [
+    {
+      "to": "0xc8b269a25a65a54fb193f7737ddb9dc386dc5a88",
+      "value": "0x0"
+    },
+    {
+      "to": "0x544dd2bcf96eb1becca11fc58dd56e12e87c4500",
+      "value": "0x0"
+    },
+    {
+      "to": "0x544dd2bcf96eb1becca11fc58dd56e12e87c4500",
+      "value": "0x0"
+    },
+    {
+      "to": "0xc8b269a25a65a54fb193f7737ddb9dc386dc5a88",
+      "value": "0x0"
+    },
+    {
+      "to": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+      "value": "0x0"
+    },
+    {
+      "to": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+      "value": "0x237068708d2698"
+    },
+    {
+      "to": "0x544dd2bcf96eb1becca11fc58dd56e12e87c4500",
+      "value": "0x0"
+    }
+  ],
+  "rpcFunctions": [
+    "eth_chainId",
+    "eth_getCode",
+    "eth_call",
+    "poolManager",
+    "permit2",
+    "eth_getBlockByNumber",
+    "decimals",
+    "symbol",
+    "rewardRate",
+    "periodEnd",
+    "totalStaked",
+    "idle",
+    "unstreamed",
+    "getSlot0",
+    "getLiquidity",
+    "eth_getLogs",
+    "balanceOf",
+    "eth_getBalance",
+    "allowance",
+    "positionCount",
+    "positionAt",
+    "staked",
+    "earned",
+    "beneficiaryOf",
+    "getPositionInfo",
+    "approve",
+    "eth_getTransactionReceipt",
+    "fund",
+    "modifyLiquidities",
+    "claim"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-09-27T07:19:19Z",
+  "method": "Full-history git bundle --all from a disposable scratch clone with all submission files committed; primary repository .git is read-only",
+  "bundleBytesBeforeThisReport": 1840328,
+  "maximumBytes": 8388608,
+  "addedPaths": 47,
+  "exportBytes": 1035599,
+  "ignorePathBudget": {
+    "path": "web/.gitignore",
+    "maximumBytes": 1024,
+    "actualBytes": 98
+  },
+  "trackedSubmodules": 0,
+  "scopeCheck": "All new files in web/, dist/ or docs/; no existing tracked files modified",
+  "primaryRepositoryCommit": "Blocked: read-only .git mount"
+}

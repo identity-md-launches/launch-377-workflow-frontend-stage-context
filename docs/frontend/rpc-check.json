@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-09-27T07:04:28.938Z",
+  "chainId": 11155111,
+  "poolId": "0xffe6cbc5331749fa06dbf826f57bba0c082910c7e2bbb2bf58a0e0dc170b6356",
+  "rpcUrls": [
+    "https://ethereum-sepolia-rpc.publicnode.com",
+    "https://rpc.sepolia.ethpandaops.io",
+    "https://sepolia.rpc.sentio.xyz"
+  ],
+  "broadcastTransactions": false,
+  "verification": "Passed: chain ID, all required contract code, PoolManager and Permit2 bindings",
+  "snapshot": {
+    "block": "11791717",
+    "timestamp": "1790492664",
+    "fetchedAt": 1790492669173,
+    "decimals": 18,
+    "symbol": "FARMX",
+    "rate": "0",
+    "end": "0",
+    "totalStaked": "0",
+    "idle": "0",
+    "remaining": "0",
+    "sqrtPrice": "560227709747861399187319382274582",
+    "tick": 177284,
+    "poolLiquidity": "0",
+    "balance": "0",
+    "nativeBalance": "0",
+    "hookAllowance": "0",
+    "tokenAllowance": "0",
+    "permitAmount": "0",
+    "permitExpiration": 0,
+    "positions": [],
+    "positionCount": "0"
+  },
+  "events": []
+}

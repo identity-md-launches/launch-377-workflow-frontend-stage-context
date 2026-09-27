@@ -1,0 +1,74 @@
+[
+  {
+    "selector": "body",
+    "foreground": "rgb(36, 47, 37)",
+    "background": "rgb(245, 245, 238)",
+    "contrast": 12.71,
+    "font": "Arial, Helvetica, sans-serif",
+    "fontSize": "16px"
+  },
+  {
+    "selector": ".intro-copy",
+    "foreground": "rgb(90, 100, 87)",
+    "background": "rgb(245, 245, 238)",
+    "contrast": 5.65,
+    "font": "Arial, Helvetica, sans-serif",
+    "fontSize": "17.6px"
+  },
+  {
+    "selector": ".test-note p",
+    "foreground": "rgb(90, 100, 87)",
+    "background": "rgb(245, 245, 238)",
+    "contrast": 5.65,
+    "font": "Arial, Helvetica, sans-serif",
+    "fontSize": "14px"
+  },
+  {
+    "selector": ".metric dt",
+    "foreground": "rgb(90, 100, 87)",
+    "background": "rgb(233, 236, 223)",
+    "contrast": 5.16,
+    "font": "Arial, Helvetica, sans-serif",
+    "fontSize": "14px"
+  },
+  {
+    "selector": ".metric dd",
+    "foreground": "rgb(36, 47, 37)",
+    "background": "rgb(233, 236, 223)",
+    "contrast": 11.62,
+    "font": "Arial, Helvetica, sans-serif",
+    "fontSize": "32px"
+  },
+  {
+    "selector": ".metric dd span",
+    "foreground": "rgb(90, 100, 87)",
+    "background": "rgb(233, 236, 223)",
+    "contrast": 5.16,
+    "font": "Arial, Helvetica, sans-serif",
+    "fontSize": "13px"
+  },
+  {
+    "selector": "button.primary",
+    "foreground": "rgb(255, 254, 249)",
+    "background": "rgb(47, 86, 60)",
+    "contrast": 8.26,
+    "font": "Arial, Helvetica, sans-serif",
+    "fontSize": "14px"
+  },
+  {
+    "selector": ".hint",
+    "foreground": "rgb(90, 100, 87)",
+    "background": "rgb(255, 254, 249)",
+    "contrast": 6.13,
+    "font": "Arial, Helvetica, sans-serif",
+    "fontSize": "13px"
+  },
+  {
+    "selector": ".fine-print",
+    "foreground": "rgb(90, 100, 87)",
+    "background": "rgb(255, 254, 249)",
+    "contrast": 6.13,
+    "font": "Arial, Helvetica, sans-serif",
+    "fontSize": "13px"
+  }
+]

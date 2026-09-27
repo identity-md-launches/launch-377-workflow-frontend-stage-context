@@ -1,0 +1,91 @@
+[
+  {
+    "name": "poolManager",
+    "type": "function",
+    "stateMutability": "view",
+    "inputs": [],
+    "outputs": [
+      {
+        "type": "address"
+      }
+    ]
+  },
+  {
+    "name": "permit2",
+    "type": "function",
+    "stateMutability": "view",
+    "inputs": [],
+    "outputs": [
+      {
+        "type": "address"
+      }
+    ]
+  },
+  {
+    "name": "modifyLiquidities",
+    "type": "function",
+    "stateMutability": "payable",
+    "inputs": [
+      {
+        "type": "bytes",
+        "name": "unlockData"
+      },
+      {
+        "type": "uint256",
+        "name": "deadline"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "name": "multicall",
+    "type": "function",
+    "stateMutability": "payable",
+    "inputs": [
+      {
+        "type": "bytes[]",
+        "name": "data"
+      }
+    ],
+    "outputs": [
+      {
+        "type": "bytes[]",
+        "name": "results"
+      }
+    ]
+  },
+  {
+    "name": "DeadlinePassed",
+    "type": "error",
+    "inputs": [
+      {
+        "type": "uint256",
+        "name": "deadline"
+      }
+    ]
+  },
+  {
+    "name": "MaximumAmountExceeded",
+    "type": "error",
+    "inputs": [
+      {
+        "type": "uint128",
+        "name": "maximumAmount"
+      },
+      {
+        "type": "uint128",
+        "name": "amountRequested"
+      }
+    ]
+  },
+  {
+    "name": "NotApproved",
+    "type": "error",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "caller"
+      }
+    ]
+  }
+]

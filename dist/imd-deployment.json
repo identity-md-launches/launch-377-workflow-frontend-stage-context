@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "launchId": "3d1c8c28-4716-4043-bc32-5e5a7a4f0ee1",
+  "chainId": 11155111,
+  "sourceCommit": "ccf309b7a619dbb9ea87a4ab76af84471cc90574",
+  "attestationHash": "fab6d0dee076593a6d7fcdcdf018abf3cb31cb911ff6526b937fb337053b88b0",
+  "contracts": [
+    {
+      "name": "FARMX",
+      "address": "0xc8b269a25a65a54fb193f7737ddb9dc386dc5a88",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "abiPath": "abi/FARMX.json"
+    },
+    {
+      "name": "LiquidityMiningHook",
+      "address": "0x544dd2bcf96eb1becca11fc58dd56e12e87c4500",
+      "abiHash": "255e14cf68d07d7d2782d502f94d292d9052632ba580fcf5a3934fa352309c63",
+      "abiPath": "abi/LiquidityMiningHook.json"
+    }
+  ],
+  "assets": [
+    {
+      "path": "abi/FARMX.json",
+      "sha256": "9578fcb499b4ba5fac51462a67a2654d9f803e0ea3af9bdb19130ff695808542"
+    },
+    {
+      "path": "abi/LiquidityMiningHook.json",
+      "sha256": "d818337be7ec9cdcc66de8f5e2e96cc43babf6366f81a21a095cc0288d581a2a"
+    },
+    {
+      "path": "abi/Permit2.json",
+      "sha256": "0aef9d81b9ea68461353ebb201d1d7df519577b260bfee5a1906ade18df9cf41"
+    },
+    {
+      "path": "abi/PositionManager.json",
+      "sha256": "8f77c4ce7db967495a63d595288f396aea0a2896c204471b7b14dd3486bf658f"
+    },
+    {
+      "path": "abi/StateView.json",
+      "sha256": "f8d6391c9dcf93aac6c5b2a6641073aeee0d8e4a38bd7da8cde4c58c5f5abc1f"
+    },
+    {
+      "path": "assets/ccip-BQye5YFp.js",
+      "sha256": "a70950664db68ecd80e6601af90af275ce7635f9ef84d770a86d2b43a2fc58df"
+    },
+    {
+      "path": "assets/index-4OInWQW3.js",
+      "sha256": "3a2d03a3e612fbaecdecbe36ff78f1769194e62a81f316d117524ea755613eb2"
+    },
+    {
+      "path": "assets/index-5GwOp2vi.css",
+      "sha256": "4bb2cbb373d0971a54957f4f168ca8ac9a5a216b9b8f088d58c7b79b052df2d3"
+    },
+    {
+      "path": "farm.svg",
+      "sha256": "30677ebb460b4bab292ebec061a70c5932d68ef91502cb888d47f717ca52e235"
+    },
+    {
+      "path": "index.html",
+      "sha256": "711317b27d8ae2ae6f4df950e22f63e5c5d9b0b8c52dc995dc166f0dc73b4487"
+    }
+  ],
+  "network": {
+    "chainId": 11155111,
+    "name": "Sepolia",
+    "testnet": true,
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "explorer": "https://sepolia.etherscan.io",
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [
+      "https://cloud.google.com/application/web3/faucet/ethereum/sepolia",
+      "https://www.alchemy.com/faucets/ethereum-sepolia"
+    ],
+    "uniswapV4": {
+      "poolManager": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+      "universalRouter": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+      "quoter": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+      "stateView": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+      "positionManager": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+    }
+  },
+  "walletAddChain": {
+    "chainId": "0xaa36a7",
+    "chainName": "Sepolia",
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://sepolia.etherscan.io"
+    ]
+  },
+  "pool": {
+    "fee": 3000,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336",
+    "pairedCurrency": "0x0000000000000000000000000000000000000000"
+  },
+  "token": {
+    "name": "Farm",
+    "symbol": "FARMX",
+    "contract": "FARMX",
+    "decimals": 18
+  },
+  "hook": "LiquidityMiningHook",
+  "deploymentBlock": 11791644,
+  "interfaces": {
+    "StateView": "abi/StateView.json",
+    "PositionManager": "abi/PositionManager.json",
+    "Permit2": "abi/Permit2.json"
+  }
+}
